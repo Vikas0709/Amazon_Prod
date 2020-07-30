@@ -1,0 +1,10 @@
+amazon\common\PrintUtils.class
+amazon\common\PropertyfileReader.class
+amazon\Extentreports\ExtentreporterNG.class
+listeners\RetryAnalyzer.class
+amazon\pages\Homepage.class
+amazon\pages\ProductdetailPage.class
+amazon\pages\Productspage.class
+listeners\Screenshots.class
+amazon\common\WebdriverGenerics.class
+listeners\MyTransformer.class
