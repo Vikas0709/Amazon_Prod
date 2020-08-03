@@ -38,11 +38,11 @@ public void intializebrowser(){
 	
 }
 @Test()
-public void TC_AmazonSearchBox(){
+public void TC_AmazonSearchBox(String searchitem,String drpdownoptn){
 	ExtentreporterNG.setTestName("TC_AmazonSearchBox", "To test the amazon search bar and get the details for the first option displayed");;
 	try{
 	amzsrch=new Homepage();
-	amzsrch.Amazonsearchbar("science","Books");
+	amzsrch.Amazonsearchbar(searchitem,drpdownoptn);
 	prdtspg= new Productspage();
 	prdtspg.productslistdisplay();
 	prdtlpg = new ProductdetailPage();

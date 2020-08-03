@@ -1,10 +1,14 @@
 package amazon.common;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
+
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -15,6 +19,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class WebdriverGenerics extends PropertyfileReader {
 	public static WebDriver driver;
 	PropertyfileReader prop;
+	
 
 	public void openbrowser(){
 		
@@ -41,4 +46,5 @@ public class WebdriverGenerics extends PropertyfileReader {
 			System.out.println("Oops Something went wrong while taking screenshot " +e);
 		}
 	}
+	
 }
